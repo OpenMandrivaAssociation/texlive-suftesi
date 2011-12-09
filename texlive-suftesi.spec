@@ -1,11 +1,11 @@
-# revision 24552
+# revision 24737
 # category Package
 # catalog-ctan /macros/latex/contrib/suftesi
-# catalog-date 2011-11-08 09:53:55 +0100
+# catalog-date 2011-11-17 00:42:26 +0100
 # catalog-license lppl
-# catalog-version 0.6b
+# catalog-version 0.6c
 Name:		texlive-suftesi
-Version:	0.6b
+Version:	0.6c
 Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
@@ -17,27 +17,25 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The class is specifically designed for use with theses in the
 humanities.
 
 %pre
-    %_texmf_mktexlsr_pre
+    %{_sbindir}/texlive.post
 
 %post
-    %_texmf_mktexlsr_post
+    %{_sbindir}/texlive.post
 
 %preun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
+	%{_sbindir}/texlive.post
     fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
