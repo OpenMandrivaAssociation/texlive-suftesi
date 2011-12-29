@@ -22,16 +22,8 @@ Requires(post):	texlive-kpathsea
 The class is specifically designed for use with theses in the
 humanities.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -59,7 +51,6 @@ humanities.
 %doc %{_texmfdistdir}/doc/latex/suftesi/logo.png
 %doc %{_texmfdistdir}/doc/latex/suftesi/suftesi.pdf
 %doc %{_texmfdistdir}/doc/latex/suftesi/suftesi.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,5 +61,3 @@ humanities.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
