@@ -1,11 +1,11 @@
-# revision 26217
+# revision 28065
 # category Package
 # catalog-ctan /macros/latex/contrib/suftesi
-# catalog-date 2012-04-23 11:23:52 +0200
+# catalog-date 2012-10-22 10:11:18 +0200
 # catalog-license lppl
-# catalog-version 0.9
+# catalog-version 1.1
 Name:		texlive-suftesi
-Version:	0.9
+Version:	1.1
 Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
@@ -44,6 +44,7 @@ humanities.
 %doc %{_texmfdistdir}/doc/latex/suftesi/example/MaterialeInizialeFinale/Ringraziamenti.tex
 %doc %{_texmfdistdir}/doc/latex/suftesi/example/bibliografia.bib
 %doc %{_texmfdistdir}/doc/latex/suftesi/example/logo.png
+%doc %{_texmfdistdir}/doc/latex/suftesi/example/tesi.pdf
 %doc %{_texmfdistdir}/doc/latex/suftesi/example/tesi.tex
 %doc %{_texmfdistdir}/doc/latex/suftesi/suftesi.pdf
 #- source
