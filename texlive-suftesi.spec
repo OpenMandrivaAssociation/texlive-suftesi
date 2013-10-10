@@ -1,11 +1,11 @@
-# revision 26217
+# revision 31713
 # category Package
 # catalog-ctan /macros/latex/contrib/suftesi
-# catalog-date 2012-04-23 11:23:52 +0200
+# catalog-date 2013-09-21 14:06:34 +0200
 # catalog-license lppl
-# catalog-version 0.9
+# catalog-version 1.9
 Name:		texlive-suftesi
-Version:	0.9
+Version:	1.9
 Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
@@ -35,20 +35,26 @@ humanities.
 %files
 %{_texmfdistdir}/tex/latex/suftesi/suftesi.cls
 %doc %{_texmfdistdir}/doc/latex/suftesi/README
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/Capitoli/primo.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/Capitoli/secondo.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/Capitoli/terzo.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/Immagini/don.png
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/Immagini/lamport.jpg
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/MaterialeInizialeFinale/Introduzione.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/MaterialeInizialeFinale/Ringraziamenti.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/bibliografia.bib
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/logo.png
-%doc %{_texmfdistdir}/doc/latex/suftesi/example/tesi.tex
 %doc %{_texmfdistdir}/doc/latex/suftesi/suftesi.pdf
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/collection/collection-art1.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/collection/collection.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/primo.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/secondo.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/terzo.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/MaterialeInizialeFinale/Introduzione.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/MaterialeInizialeFinale/Ringraziamenti.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/cognome-tesi.bib
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/cognome-tesi.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/immagini/don.png
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/immagini/lamport.jpg
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/immagini/logo.png
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/cognome-tesi.bib
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/cognome-tesi.tex
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/immagini/don.png
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/immagini/lamport.jpg
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/immagini/logo.png
 #- source
 %doc %{_texmfdistdir}/source/latex/suftesi/suftesi.dtx
-%doc %{_texmfdistdir}/source/latex/suftesi/suftesi.ins
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,37 +65,3 @@ humanities.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9-1
-+ Revision: 805083
-- Update to latest release.
-
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.8-1
-+ Revision: 790742
-- Update to latest release.
-
-* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7-1
-+ Revision: 772151
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.6c-2
-+ Revision: 756352
-- Rebuild to reduce used resources
-
-* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.6c-1
-+ Revision: 739903
-- texlive-suftesi
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.6b-1
-+ Revision: 729697
-- texlive-suftesi
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.6a-1
-+ Revision: 719611
-- texlive-suftesi
-- texlive-suftesi
-- texlive-suftesi
-- texlive-suftesi
-
