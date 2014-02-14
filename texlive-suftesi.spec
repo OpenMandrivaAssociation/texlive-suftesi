@@ -1,12 +1,12 @@
-# revision 31713
+# revision 32941
 # category Package
 # catalog-ctan /macros/latex/contrib/suftesi
-# catalog-date 2013-09-21 14:06:34 +0200
+# catalog-date 2014-02-11 20:08:54 +0100
 # catalog-license lppl
-# catalog-version 1.9
+# catalog-version 1.9a
 Name:		texlive-suftesi
-Version:	1.9
-Release:	5
+Version:	1.9a
+Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
@@ -36,23 +36,7 @@ humanities.
 %{_texmfdistdir}/tex/latex/suftesi/suftesi.cls
 %doc %{_texmfdistdir}/doc/latex/suftesi/README
 %doc %{_texmfdistdir}/doc/latex/suftesi/suftesi.pdf
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/collection/collection-art1.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/collection/collection.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/primo.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/secondo.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/Capitoli/terzo.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/MaterialeInizialeFinale/Introduzione.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/MaterialeInizialeFinale/Ringraziamenti.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/cognome-tesi.bib
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/cognome-tesi.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/immagini/don.png
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/immagini/lamport.jpg
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-magistrale/immagini/logo.png
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/cognome-tesi.bib
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/cognome-tesi.tex
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/immagini/don.png
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/immagini/lamport.jpg
-%doc %{_texmfdistdir}/doc/latex/suftesi/templates/tesi-triennale/immagini/logo.png
+%doc %{_texmfdistdir}/doc/latex/suftesi/templates.zip
 #- source
 %doc %{_texmfdistdir}/source/latex/suftesi/suftesi.dtx
 
