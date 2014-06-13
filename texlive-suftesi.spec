@@ -6,7 +6,7 @@
 # catalog-version 1.9b
 Name:		texlive-suftesi
 Version:	1.9b
-Release:	1
+Release:	2
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
