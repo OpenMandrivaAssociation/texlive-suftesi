@@ -1,12 +1,12 @@
-# revision 32982
+# revision 33382
 # category Package
 # catalog-ctan /macros/latex/contrib/suftesi
-# catalog-date 2014-02-16 18:27:42 +0100
+# catalog-date 2014-04-05 12:34:01 +0200
 # catalog-license lppl
-# catalog-version 1.9b
+# catalog-version 1.9c
 Name:		texlive-suftesi
-Version:	1.9b
-Release:	2
+Version:	1.9c
+Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
