@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.9c
 Name:		texlive-suftesi
-Version:	2.9
-Release:	3
+Version:	2.9.1
+Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
