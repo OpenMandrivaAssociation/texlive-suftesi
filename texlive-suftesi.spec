@@ -1,19 +1,13 @@
-# revision 33382
-# category Package
-# catalog-ctan /macros/latex/contrib/suftesi
-# catalog-date 2014-04-05 12:34:01 +0200
-# catalog-license lppl
-# catalog-version 1.9c
 Name:		texlive-suftesi
-Version:	2.9.1
+Version:	60991
 Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ The class is specifically designed for use with theses in the
 humanities.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -42,7 +36,8 @@ humanities.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
