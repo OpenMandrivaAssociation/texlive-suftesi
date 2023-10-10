@@ -1,6 +1,6 @@
 Name:		texlive-suftesi
-Version:	60991
-Release:	2
+Version:	68204
+Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
