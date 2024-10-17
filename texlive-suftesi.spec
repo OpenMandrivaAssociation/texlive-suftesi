@@ -3,7 +3,7 @@ Version:	68204
 Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/suftesi
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/suftesi.doc.r%{version}.tar.xz
