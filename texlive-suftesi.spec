@@ -1,5 +1,5 @@
 Name:		texlive-suftesi
-Version:	68204
+Version:	73055
 Release:	1
 Summary:	A document class for typesetting theses, books and articles
 Group:		Publishing
